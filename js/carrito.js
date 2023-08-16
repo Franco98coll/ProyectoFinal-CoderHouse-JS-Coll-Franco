@@ -87,6 +87,7 @@ function comprar() {
             swal("Compra realizada con éxito", {
                 icon: "success",
             });
+            listaCarrito.innerHTML = '';
         } else {
             swal("Compra cancelada");
         }
