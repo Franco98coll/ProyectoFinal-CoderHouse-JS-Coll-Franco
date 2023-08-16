@@ -1,0 +1,40 @@
+/*Reset*/ 
+@import "_reset.scss";
+/*Variable*/ 
+@import "_variable.scss";
+/*Navbar*/ 
+@import "_navbar.scss";
+/*Carrusel*/ 
+@import "./index/carrusel";
+/*Mejores Productos*/
+@import "./index/mejores-productos";
+/*Promocion*/
+@import "./index/promocion";
+/*Marcas*/ 
+@import "./index/marcas";
+/*Redes*/
+@import "./index/redes";
+/*Footer*/
+@import "./index/footer";
+
+/*Pagina de Productos*/ 
+@import "_pag-producto.scss";
+
+/*Pagina de Login*/ 
+@import "_login.scss";
+
+/*Pagina de Carrito*/ 
+@import "_carrito.scss";
+
+/*Pagina de Section*/ 
+@import "_section.scss";
+
+/*Pagina de Inventario*/ 
+@import "_inventario.scss";
+
+/*Pagina de Error*/ 
+@import "_404.scss";
+
+/*Responsive*/ 
+@import "_responsive-tablet.scss";
+@import "_responsive-celular.scss";

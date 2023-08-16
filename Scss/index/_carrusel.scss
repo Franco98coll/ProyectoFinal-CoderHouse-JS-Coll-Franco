@@ -1,0 +1,29 @@
+#carrusel-slogan{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    .carousel{
+        margin-left: -0.7rem;
+        padding: 0;
+        height: 300px;
+        width: 100vw;
+        img{
+            height: 300px;
+            width: 100%;
+            object-fit: cover;
+        }
+        
+    }
+    .slogan{
+        position: relative;
+        top: -50%;
+        left: 0%;
+        color: #fff;
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+        text-shadow: 2px 2px 4px #000000;
+        cursor: default;
+    }
+}
+
